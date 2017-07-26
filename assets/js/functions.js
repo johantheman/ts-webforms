@@ -11,6 +11,7 @@ function addFields(){
         container.appendChild(document.createTextNode("Friend " + (i+1) + ":"));
         var input = document.createElement("input");
         input.type = "text";
+        input.name = "friends[]";
         container.appendChild(input);
         container.appendChild(document.createElement("br"));
     }
